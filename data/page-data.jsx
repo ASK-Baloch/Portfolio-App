@@ -1,7 +1,7 @@
 import "@fortawesome/fontawesome-free/css/all.css";
 export const personalData = {
   name: "Ahmed Baloch",
-  role: "FrontEnd DEV.",
+  role: "Full Stack DEV.",
   education: "BSCS FUUAST  (2023-present)",
 
   contactLinks: [
@@ -15,7 +15,7 @@ export const personalData = {
 export const aboutMe = {
   title: "About Me",
   body: [
-    "As a highly motivated and driven individual with a passion for making a positive impact . I possess a strong drive and unwavering motivation to make a meaningful difference, which is complemented by a distinctive combination of technical expertise and interpersonal abilities stemming from my background in computer science.I thrive on solving complex problems and remain determined to achieve my goals, even in challenging situations.",
+    "As a developer based in Islamabad, I excel in frontend technologies like Next.js 14, REACT, HTML, CSS, and TypeScript. I'm also proficient in backend tasks and API integrations. My experience with Python and Docker enhances my versatility, making me a well-rounded developer for modern web applications. I'm currently learning cloud-native technologies like Kubernetes, AI agents, and AI-powered applications. I'm always ready to leverage my skills to create impactful solutions.As a highly motivated and driven individual with a passion for making a positive impact . I possess a strong drive and unwavering motivation to make a meaningful difference, which is complemented by a distinctive combination of technical expertise and interpersonal abilities stemming from my background in computer science.I thrive on solving complex problems and remain determined to achieve my goals, even in challenging situations.",
     "When I'm not working,I find solace in activities such as sports, reading, and cherishing moments with my loved ones. I firmly believe that my determination, can-do attitude, and diligent work ethic render me an invaluable asset to any team..",
   ],
 };

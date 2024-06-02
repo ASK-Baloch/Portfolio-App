@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import DownloadButton from "./downloadButton";
 
 import { Envelope,  Linkedin , GitHub, Instagram } from "./icons/";
 
@@ -47,6 +48,7 @@ const Sidebar = ({ data }) => {
 						</a>
 						<a className='my-2 mx-1 text-2xl' href={contactLinks?.[3]} aria-label={"medium link"}> <Instagram /></a>
 					</div>
+					<DownloadButton />
 				</div>
 			</div>
 		</div>
