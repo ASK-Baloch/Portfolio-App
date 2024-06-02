@@ -51,7 +51,13 @@ export const professionalData = {
         "Offered a diverse range of services encompassing the creation and implementation of various projects ensuring timely delivery and client satisfaction. Independently designed and launched fully functional websites  that precisely met the clients' expectations. Delivered comprehensive technical support and mentoring to guide clients in efficiently operating their websites. Consistently received positive feedback and fostered enduring client relationships.",
       current: true,
     },
-
+    
+    {
+      role: "Coding Instructor Volunteer (2024-present)",
+      description: `Taught advanced web development topics including Next.js, TypeScript, and FastAPI.
+      Delivered comprehensive lessons on Next.js covering routing, data fetching, and styling with Tailwind CSS. Taught FastAPI for building high-performance APIs with Python`,
+      current: true,
+    },
     {
       role: "Senior Frontend WebDeveloper  (2021-present)",
       description: `Proficiently developed websites utilizing a diverse tech stack, including TypeScript, ReactJS, Tailwind CSS, and Next.js, alongside traditional HTML, CSS, Bootstrap, and JavaScript.I have applied advanced logic and eye-catching designs  to multiple projects during my experience.With almost six months of experience in Frontend Development, I have gained valuable expertise in creating engaging and functional websites.`,
@@ -67,8 +73,7 @@ export const certificationsData = {
       role: "Cloud Native and Mobile Web Computing Specialist",
       description: (
         <div>
-          This certificate was offered by PIAIC in 2024. I am still enrolled and
-          pursuing it.
+           This certificate, offered by PIAIC in 2024, is highly regarded in the tech industry. It covers advanced topics in cloud-native technologies and mobile web computing. I am currently enrolled and actively pursuing it to enhance my expertise and stay at the forefront of technological advancements.
           <br />
           <br />
           <div
@@ -90,8 +95,7 @@ export const certificationsData = {
       role: "Certified Cloud Applied Generative AI Engineer",
       description: (
         <div>
-          This certificate was offered by PIAIC in 2023. I Passed out with a
-          85%.
+          This certificate was offered by PIAIC in 2023, known for its excellent reputation. I graduated with an 85%.
           <br />
           <br />
           <div
@@ -106,7 +110,7 @@ export const certificationsData = {
           </div>
         </div>
       ),
-      current: true,
+      current: false,
     },
   ],
 };
