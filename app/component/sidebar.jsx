@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-import { Envelope, Twitter, Linkedin, Medium, GitHub, Instagram } from "./icons/";
+import { Envelope,  Linkedin , GitHub, Instagram } from "./icons/";
 
 const Sidebar = ({ data }) => {
 	const { name, role, education, contactLinks } = data;
@@ -15,13 +15,12 @@ const Sidebar = ({ data }) => {
 					height={300}
 					className='rounded-full h-full mb-6'
 					src='/images/ahmededited.jpg'
-					alt='julian-wan-WNoLnJo7tS8-unsplash.jpg'
+					alt='My Image'
 					aria-label='julian-wan-WNoLnJo7tS8-unsplash.jpg'
 				/>
-				<h1 className='mb-2'>{name}</h1>
+				<h1 className='mb-2 lg:w-max'>{name}</h1>
 				<h2 className='mb-8'>{role}</h2>
-				<p className='mb-2'>{education[0]}</p>
-				<p className='mb-2'>{education[1]}</p>
+				<p className='mb-2'>{education}</p>
 				<div className='text-white text-center mb-4 mt-4 sm:mt-8'>
 					<h3 className='mb-2'> CONTACT ME</h3>
 					<div className='flex flex-row justify-center gap-2'>
